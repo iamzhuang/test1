@@ -1,8 +1,6 @@
-# Spark
-
-This repository contains the ROS wrapper of Sparks's driver plus various ROS applications.This is a meta-package.
-# NXROBO spark
+# NXROBO Spark
 <img src="http://wiki.ros.org/Robots/Spark?action=AttachFile&do=get&target=spark.png" width="300">
+This repository contains the ROS wrapper of Sparks's driver plus various ROS applications.This is a meta-package.
 
 ## Table of Contents
 
