@@ -1,8 +1,10 @@
 # NXROBO Spark
 <img src="http://wiki.ros.org/Robots/Spark?action=AttachFile&do=get&target=spark.png" width="300">
-This repository contains the ROS wrapper of Sparks's driver plus various ROS applications.This is a meta-package.
-本说明为初学者体验版，如需查看详细说明，请查看 
-[.Detailed version](https://github.com/iamzhuang/test1/blob/master/ORB.md)
+
+# 说明 Description
+- This repository contains the ROS wrapper of Sparks's driver plus various ROS applications.This is a meta-package.
+- 本说明为初学者体验版，如需查看详细说明，请查看 
+- [.Detailed version](https://github.com/iamzhuang/test1/blob/master/ORB.md)
 - [ROBOTIS e-Manual for TurtleBot3](http://turtlebot3.robotis.com/)
 ## Table of Contents
 
