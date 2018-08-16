@@ -53,10 +53,8 @@ We also provide a downloadable mirror whose all environments have been configure
 ## 视频展示Mirror
 
 1.跟随 the follow-person example
-
-<a href="https://www.youtube.com/watch?v=XBBVnRQn_fg" target="_blank"><img src="https://www.youtube.com/watch?v=XBBVnRQn_fg/0.jpg" 
-alt="SPARK" width="240" height="180" border="10" /></a>
-
+<a href="https://www.youtube.com/embed/XBBVnRQn_fg" target="_blank"><img src="http://img.youtube.com/vi/XBBVnRQn_fg/0.jpg" 
+alt="follow-person" width="240" height="180" border="10" /></a>
 ```yaml
 cd spark
 source devel/setup.bash

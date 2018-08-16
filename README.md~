@@ -63,4 +63,3 @@ source devel/setup.bash
 roslaunch spark_follower bringup.launch
 ```
 
-```
