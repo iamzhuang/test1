@@ -1,7 +1,7 @@
 # NXROBO Spark
 <img src="http://wiki.ros.org/Robots/Spark?action=AttachFile&do=get&target=spark.png" width="300">
 This repository contains the ROS wrapper of Sparks's driver plus various ROS applications.This is a meta-package.
-本说明为初学者体验版，如需查看详细说明，请查看[详细版本](https://github.com/iamzhuang/test1/blob/master/ORB.md)
+本说明为初学者体验版，如需查看详细说明，请查看 [详细版本](https://github.com/iamzhuang/test1/blob/master/ORB.md)
 
 ## Table of Contents
 
@@ -52,7 +52,7 @@ We also provide a downloadable mirror whose all environments have been configure
 
 ## 视频展示Video
 
-1.跟随 the follow-person example
+1.Spark跟随 Spark-Follower
 
 <a href="https://www.youtube.com/embed/XBBVnRQn_fg" target="_blank"><img src="http://img.youtube.com/vi/XBBVnRQn_fg/0.jpg" 
 alt="follow-person" width="240" height="180" border="10" /></a>
@@ -62,13 +62,34 @@ source devel/setup.bash
 roslaunch spark_follower bringup.launch
 ```
 
-2.跟随 the follow-person example
+2.Spark建图 Spark-SLAM-Mapping
 
 <a href="https://www.youtube.com/embed/XBBVnRQn_fg" target="_blank"><img src="http://img.youtube.com/vi/XBBVnRQn_fg/0.jpg" 
 alt="follow-person" width="240" height="180" border="10" /></a>
 ```yaml
 cd spark
 source devel/setup.bash
-roslaunch spark_follower bringup.launch
+roslaunch spark_slam 2d_slam_teleop.launch slam_methods_tel:=gmapping
 ```
+
+3.Spark导航 spark-Navigation
+
+<a href="https://www.youtube.com/embed/XBBVnRQn_fg" target="_blank"><img src="http://img.youtube.com/vi/XBBVnRQn_fg/0.jpg" 
+alt="follow-person" width="240" height="180" border="10" /></a>
+```yaml
+cd spark
+source devel/setup.bash
+roslaunch spark_navigation amcl_demo_lidar_rviz.launch
+```
+
+4.Spark-RtabMap建图 spark-RtabMap-Mapping
+
+<a href="https://www.youtube.com/embed/XBBVnRQn_fg" target="_blank"><img src="http://img.youtube.com/vi/XBBVnRQn_fg/0.jpg" 
+alt="follow-person" width="240" height="180" border="10" /></a>
+```yaml
+cd spark
+source devel/setup.bash
+roslaunch spark_rtabmap spark_rtabmap_teleop.launch 
+```
+
 
