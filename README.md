@@ -22,30 +22,29 @@ This repository contains the ROS wrapper of Sparks's driver plus various ROS app
 
 ### 下载安装 Download and install
 
-下载工作空间 Download the workspace:
+* 下载工作空间 Download the workspace:
 ```yaml
 git clone https://github.com/NXROBO/spark.git
 ```
-安装依赖库 Install libraries and dependencies:
+* 安装依赖库并 Install libraries and dependencies:
 ```yaml
 cd spark
 ./onekey.sh
 ```
-根据说明选择103 Choose NO.103
+* 根据提示选择103 Choose NO.103
 ```yaml
 103
-./onekey.sh
 ```
 ### 编译 compile
 ```yaml
 catkin_make
 ```
-如果编译一切正常，可根据提示运行相关例程。If everything goes fine, test the examples as follow:
+* 如果编译一切正常，可根据提示运行相关例程。If everything goes fine, test the examples as follow:
 ```yaml
-./install/follow_run.sh
+./onekey.sh
 ```
 
-#镜像Mirror
+##镜像Mirror
 
 We also provide a downloadable mirror whose all environments have been configured.
 *  Download address: [spark_mirror](http://pan.baidu.com/s/1i4ZlH4p)

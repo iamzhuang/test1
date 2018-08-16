@@ -6,19 +6,7 @@ This repository contains the ROS wrapper of Sparks's driver plus various ROS app
 
 * [功能包说明packages-overview](#功能包说明packages-overview)
 * [使用usage](#使用usageusage)
-* [Mirror](#mirror)
-* [Routine](#routine)
-  * [Spark-Follower](#spark-follower)
-  * [Spark-SLAM Mapping](#spark-slam-mapping)
-  * [Spark-Navigation](#spark-navigation)
-  * [RTABMap-DeepCamera-Mapping](#rtabmap-deepcamera-mapping)
-  * [Spark-RTABMap-Mapping-Navigation](#spark-rtabmap-mapping-navigation)
-* [Routine (Chinese Version)](#routine-cn)
-  * [Spark-跟随演示](#spark-跟随演示)
-  * [Spark-SLAM地图构建](#spark-slam地图构建)
-  * [Spark-自动导航](#spark-自动导航)
-  * [RTABMap深度相机手持建图](#rtabmap-深度相机手持建图)
-  * [Spark-RTABMap建图与导航](#spark-rtabmap建图与导航)
+* [镜像Mirror](#镜像Mirror)
 
 ## 功能包说明packages-overview
 
@@ -43,12 +31,11 @@ git clone https://github.com/NXROBO/spark.git
 cd spark
 ./onekey.sh
 ```
-根据说明选择103 Choose NO.103
+根据提示选择103 Choose NO.103
 ```yaml
 103
-./onekey.sh
 ```
-#编译 compile
+### 编译 compile
 ```yaml
 catkin_make
 ```
@@ -57,7 +44,7 @@ catkin_make
 ./install/follow_run.sh
 ```
 
-#镜像Mirror
+##镜像Mirror
 
 We also provide a downloadable mirror whose all environments have been configured.
 *  Download address: [spark_mirror](http://pan.baidu.com/s/1i4ZlH4p)
