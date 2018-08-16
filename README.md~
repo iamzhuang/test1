@@ -2,7 +2,7 @@
 <img src="http://wiki.ros.org/Robots/Spark?action=AttachFile&do=get&target=spark.png" width="300">
 This repository contains the ROS wrapper of Sparks's driver plus various ROS applications.This is a meta-package.
 
-[详细版本](https://github.com/iamzhuang/test1/blob/master/ORB.md)
+[详细版本](https://github.com/iamzhuang/test1/blob/master/README.md)
 ## Table of Contents
 
 * [Update Log](#update-log)
